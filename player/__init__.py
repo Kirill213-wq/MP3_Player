@@ -1,0 +1,1 @@
+from .player import MP3PlayerApp
