@@ -69,7 +69,7 @@ class GUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Spotify-Style MP3 Player")
-        self.root.geometry("454x570")
+        self.root.geometry("454x640")
 
         self.track_label = ctk.CTkLabel(self.root, text="Choose a song", font=("Arial", 20))
         self.track_label.pack(pady=10)
